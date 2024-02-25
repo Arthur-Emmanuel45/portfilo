@@ -327,6 +327,8 @@ footer p {
         flex-wrap: wrap;
     }
     #contact-container {
+        position: relative;
+        z-index: -1;
         height: 100vh;
         background-position-x: -10em;
     }

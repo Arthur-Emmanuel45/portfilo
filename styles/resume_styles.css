@@ -9,9 +9,9 @@ body {
 nav {
     width: 50px;
     height: 50px;
-    position: fixed;
+    position: absolute;
     font-size: 1.5em;
-    right: 5px;
+    left: 5px;
     top: 19px;
 }
 nav a {
@@ -208,15 +208,15 @@ h5 {
     h4 {
         font-size: 20px;
     }
-    .title {
-        font-size: 1.3em;
-    }
 }
 @media (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         float: none;
         position: relative;
-        width: 100%;
+        width: 100vw;
         height: 633px;
         padding: 20px;
         border-radius: 0;
@@ -238,9 +238,6 @@ h5 {
     }
     #skills {
         left: 15%;
-    }
-    .title {
-        font-size: 1.1em;
     }
     #project-list ul {
         padding: 5px;
