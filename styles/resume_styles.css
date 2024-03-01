@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav {
     width: 50px;
