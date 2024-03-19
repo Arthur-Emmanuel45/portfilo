@@ -17,6 +17,7 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav ul li a {
     text-decoration: none;
@@ -86,6 +87,7 @@ a button:hover {
     background-color: #fff;
     font-size: 1.1em;
     margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #aboutMe-details h2 {
     text-align: center;

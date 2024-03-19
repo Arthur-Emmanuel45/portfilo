@@ -60,7 +60,7 @@ img {
     width: 50%;
     text-align: center;
     font-weight: 600;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #personal-info-container {
     display: flex;
