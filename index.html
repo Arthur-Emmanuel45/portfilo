@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./styles/home_styles.css">
     <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css">
     <script src="./jquery.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
 </head>
 <body>
     <nav>
@@ -14,15 +16,15 @@
             <li><a href="./index.html">Home</a></li>
             <li><a href="./resume.html">Resume</a></li>
             <li><a href="#contact-container">Contact</a></li>
-            <li><a href="#aboutMe-details">About Me</a></li>
+            <li><a href="#aboutMe-container">About Me</a></li>
         </ul>
     </nav>
     <header>
         <div id="bg-opacity">
             <div id="position">
-                <div>I'm Emmmanuel Arthur</div>
+                <div>Emmanuel Arthur</div>
                 <p>A software engineer</p>
-                <a href="./resume.html"><button>Resume</button></a>
+                <p>With experience in frontend development with extensive expertise and a great track record in developing aesthetically pleasing and intuitive web apps. competent in JavaScript, HTML, and CSS and am also has a thorough understanding of contemporary front-end frameworks like React and Angular. I adept at working with cross-functional teams to complete projects of the highest caliber on schedule. I adept at creating websites that are responsive and making sure they run smoothly across a variety of hardware and web browsers. I possesses a strong aptitude for solving problems and a drive for becoming current with evolving technology and industry trends.</p>
             </div>
             <div id="profile-pic">
                 <img id="profile-img" alt="profile image" src="./image/profile_image.png">
@@ -75,23 +77,35 @@
                     </div>
                 </div>
             </div>
+            <div class="projects">
+                <img src="./image/project_pics/bankingSystemDashborad.jpg" alt="image of to-do app page">
+                <div class="project-detile-container">
+                    <h3>Banking System Dashborad</h3>
+                    <p class="detiles">React app dashboard where user can view their transactions history and interactions with user authentication with firebase</p>
+                    <div id="learnMore3">
+                        <p><a href="https://arthur-emmanuel45.github.io/backingSystemDashbord" target="_blank">Learn More</a></p> 
+                        <i class="fa fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="contact-container">
         <div id="contact">
             <h1>Let Talk</h1>
-            <form>
+            <div id="alert">Form submitted</div>
+            <form id="contact-form">
                 <div class="placeholder">
                     <i class="fa fa-user"></i>
                     <p>Name</p>
                 </div>
-                <input type="text">        
+                <input type="text" id="name">        
                 <div class="placeholder-email">
                     <i class="fa fa-envelope"></i>
                     <p>Email</p>
                 </div>
-                <input type="email">
-                <textarea rows="8">Message</textarea>
+                <input type="email" id="email">
+                <textarea rows="8" id="message">Message</textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>
@@ -114,5 +128,6 @@
         <p>Copyright @2024 By Emmmanuel Arthur</p>
     </footer>
     <script src="./home_script.js"></script>
+    <script src="./config.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: ghostwhite;
+    background-color: #fefefefe;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 * {
@@ -42,35 +42,39 @@ header {
 #bg-opacity {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
-    opacity: 0.5;
+    background-color: rgba(255, 255, 255, 0.5);
     height: 100vh;
 }
 #position {
     font-size: 2em;
-    margin: 23% auto;
+    margin: 15% auto;
     text-align: center;
 }
 #position div {
     font-weight: 900;
     font-family: sans-serif;
     font-size: 1.2em;
+    color: #fff;
 }
-#position p {
+#position p:nth-child(2) {
     font-family: monospace;
     margin-top: 5px;
     font-size: 1.1em;
     font-weight: 700;
+    margin-bottom: 0;
+    color: #fff;
 }
-a button {
-    border: 1px solid black;
-    padding: 10px;
-    font-size: 0.75em;
+#position p:nth-child(3) {
+    font-size: 18px;
+    text-align: left;
+    padding: 15px;
+    margin-top: 0;
+    font-family:cursive;
+    background-color:rgba(255, 255, 255, 0.75);
+    margin: 5px;
 }
-a button:hover {
-    cursor: pointer;
-    border: 1px solid red;
-    transition: border 1ms;
+#profile-pic img {
+    margin-top: 4em;
 }
 #aboutMe-container {
     height: 25em;
@@ -138,6 +142,9 @@ h3 {
 }
 #learnMore2 {
     margin: 50px;
+}
+.project-detile-container div:hover, .project-detile-container div p a:hover{
+    color: #3210ee;
 }
 #learnMore3 {
     margin: 28px;
@@ -229,6 +236,16 @@ form button:active {
     background-size: cover;
     padding-top: 50px;
 }
+#alert {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    background-color: rgba(34, 255, 5, 0.75);
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    display: none;
+}
 #socials {
     display: flex;
     justify-content: space-evenly;
@@ -256,7 +273,7 @@ footer {
     margin-top: 40px;
 }
 #footer-nav a {
-    width: 107px;
+    width: 8em;
     text-align: center;
     color: white;
     border: 1px solid white;
@@ -275,11 +292,19 @@ footer p {
 }
 
 @media (min-width: 767px) and (max-width: 1199px) {
-    #profile-pic {
-        padding-top: 25%;
+    #profile-pic img{
+        margin-top: 4em;
     }
     #position {
-        font-size: 2.5em;
+        margin-top: 10%;
+    }
+    #position p:nth-child(3) {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    #position {
+    }
+    #position {
     }
     #aboutMe-container {
         padding-top: 12px;
@@ -312,6 +337,11 @@ footer p {
         position: absolute;
         top: 228px;
         z-index: 1;
+        margin-top: -3em;
+        opacity: 0.85;
+    }
+    #position p:nth-child(3) {
+        font-size: 16px;
     }
     #profile-pic {
         position: absolute;

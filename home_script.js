@@ -11,7 +11,9 @@ $(function() {
     $("input[type=email]").click(function() {
         $(".placeholder-email").css("display", "none");
     })
-    $("input[type=email]").blur(function() {
-        $(".placeholder-email").css("display", "block");
-    })
+    if ($("input[type=email]").blur == true && $input.value == false){
+        $("input[type=email]").blur(function() {
+            $(".placeholder").css("display", "block");
+        })
+    }
 });
