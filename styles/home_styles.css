@@ -31,7 +31,7 @@ nav ul li a {
     width: 7em;
 }
 nav ul li a:hover {
-    background-color: #3210ee
+    background-color: #656477
 }
 header {
     height: 100vh;
@@ -67,10 +67,10 @@ header {
 #position p:nth-child(3) {
     font-size: 18px;
     text-align: left;
-    padding: 15px;
+    padding: 20px;
     margin-top: 0;
     font-family:cursive;
-    background-color:rgba(255, 255, 255, 0.75);
+    /* background-color:rgba(255, 255, 255, 0.75); */
     margin: 5px;
 }
 #profile-pic img {
@@ -83,7 +83,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-right: 14em;
+    padding: 10px;
     font-size: 1.1em;
 }
 #aboutMe-details {
@@ -91,6 +91,7 @@ header {
     background-color: #fff;
     font-size: 1.1em;
     margin: auto;
+    padding: 0 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #aboutMe-details h2 {
@@ -98,10 +99,12 @@ header {
 }
 #aboutMe-details p {
     font-family: cursive;
+    font-size: 16px;
+    margin-top: 5px;
 }
-#aboutMe-details p:nth-child(3) {
+/* #aboutMe-details p:nth-child(3) {
     padding-bottom: 30px;
-}
+} */
 #project {
     padding: 10px;
     padding-bottom: 20px;
@@ -116,20 +119,22 @@ header {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
+    padding: 20px;
 }
 .projects {
-    width: 20em;
+    width: 15em;
     max-width: 20em;
-    height: 25em;
+    height: 23em;
     padding: 10px;
     box-shadow: 1px 0px 3px;
 }
 h2 {
-    margin-left: 15px;
+    margin: 0;
 }
 .project-detile-container {
     background-color: white;
     height: 11.6em;
+    font-size: 14px;
 }
 h3 {
     margin-top: 0;
@@ -292,23 +297,33 @@ footer p {
 }
 
 @media (min-width: 767px) and (max-width: 1199px) {
-    #profile-pic img{
-        margin-top: 4em;
+    #bg-opacity {
+        display: block;
     }
     #position {
-        margin-top: 10%;
+        margin: auto;
+        position: absolute;
+        top: 40%;
+        z-index: 1;
+        opacity: 0.85;
+        padding:10px
     }
     #position p:nth-child(3) {
         font-size: 14px;
         letter-spacing: 2px;
-    }
-    #position {
-    }
-    #position {
+        font-weight: 600;
     }
     #aboutMe-container {
-        padding-top: 12px;
-        padding-left: 20px
+        height: auto;
+        padding: 20px;
+    }
+    #profile-pic {
+        height: 100vh;
+    }
+    #profile-img {
+        margin: auto;
+        height: 100vh;
+        opacity: 0.6;
     }
     #aboutMe-details {
         width: 100%;
@@ -333,12 +348,18 @@ footer p {
         display: block;
     }
     #position {
-        margin: 0;
+        margin: auto;
         position: absolute;
         top: 228px;
         z-index: 1;
-        margin-top: -3em;
         opacity: 0.85;
+        padding:10px
+    }
+    #position div {
+        font-size: 1em;
+    }
+    #position p:nth-child(1) {
+        font-size: 0.9em;
     }
     #position p:nth-child(3) {
         font-size: 16px;
@@ -352,12 +373,17 @@ footer p {
     #aboutMe-container {
         font-size: 0.7em;
         padding: 5px;
+        height: auto;
     }
     #aboutMe-details {
         width: 100%;
+        padding: 10px;
     }
     #project-container {
         flex-wrap: wrap;
+    }
+    #learnMore3, #learnMore3 p {
+        margin: 0;
     }
     #contact-container {
         position: relative;
