@@ -363,12 +363,17 @@ footer p {
     }
     #position p:nth-child(3) {
         font-size: 16px;
+        text-align: justify;
     }
     #profile-pic {
         position: absolute;
         top: 20px;
         right: 0px;
         opacity: 0.5;
+    }
+    #profile-pic img {
+        height: 100vh;
+        margin-top: 0;
     }
     #aboutMe-container {
         font-size: 0.7em;
