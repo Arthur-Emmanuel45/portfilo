@@ -115,7 +115,7 @@ header {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
-#project-container {
+.project-container {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -328,7 +328,7 @@ footer p {
     #aboutMe-details {
         width: 100%;
     }
-    #project-container {
+    .project-container {
         flex-wrap: wrap;
     }
     #contact-container {
@@ -384,7 +384,7 @@ footer p {
         width: 100%;
         padding: 10px;
     }
-    #project-container {
+    .project-container {
         flex-wrap: wrap;
     }
     #learnMore3, #learnMore3 p {
