@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fefefefe;
+    background-color: #003b72fe;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 * {
@@ -16,7 +16,6 @@ header {
     color: #fff
 }
 nav {
-    padding-top: 10px;
     display: flex;
     justify-content: space-around;
 }
@@ -53,6 +52,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     position: relative;
+    height: 91.5vh;
 }
 #bio {
     max-width: 40%;
@@ -96,6 +96,7 @@ animation: fadeEffect 1s ease-in-out;
 .inner-box p:nth-child(2){
     letter-spacing: 1px;
     line-height: 25px;
+    font-size: 1em;
 }
 .p-tag-text {
     color: #000;
@@ -104,6 +105,14 @@ animation: fadeEffect 1s ease-in-out;
     0% {opacity: 0;}
     50% {opacity: 0.5}
     100% {opacity: 1}
+}
+#profile-pic {
+    position: relative;
+}
+#profile-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 #aboutMe-container {
     height: auto;
@@ -123,11 +132,10 @@ animation: fadeEffect 1s ease-in-out;
     margin: auto;
     padding: 5px 15px;
 }
-#aboutMe-details h2 {
-    text-align: center;
-    font-size: 2em;
-    padding: 20px;
+h1, h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2em
 }
 #aboutMe-details p {
     font-family: cursive;
@@ -135,6 +143,26 @@ animation: fadeEffect 1s ease-in-out;
     margin-top: 5px;
     text-align: justify;
 }
+h2 {
+    color: #fff;
+    padding-top: 2%;
+}
+.portfolio-container {
+    text-align: center;
+    width: 80%;
+    background-color: #e7e7e7;
+    margin: 2% auto;
+    padding: 1% 2%;
+}
+.portfolio-dhakafash-img {
+    width: 85%;
+    margin: 40px auto 10px
+}
+.portfolio-dhakafash-img img {
+    width: 100%;
+    height: 100%;
+}
+/* 
 #project {
     padding: 10px;
     padding-bottom: 20px;
@@ -280,11 +308,32 @@ form button:active {
     word-spacing: 5px;
     letter-spacing: 3px;
     display: none;
-}
+} */
 #socials {
     display: flex;
     justify-content: space-evenly;
     font-size: 1.2em;
+}
+h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.portfolio-container p:nth-child(1) {
+    margin: 5px;
+    font-style: italic;
+}
+h4 {
+    margin: 5px;
+}
+.portfolio-container p:nth-child(2) {
+    letter-spacing: 0.5px;
+}
+.portfolio-container a {
+    border: none;
+    font-size: 1.2em;
+    background-color: #003b72fe;
+    padding: 10px 25px;
+    border-radius: 18px;
 }
 #socials .fa, #socials .fa-brands {
     background-color: white;
@@ -347,14 +396,14 @@ footer p {
         height: auto;
         padding: 20px;
     }
-    #profile-pic {
+    /* #profile-pic {
         height: 100vh;
     }
     #profile-img {
         margin: auto;
         height: 100vh;
         opacity: 0.6;
-    }
+    } */
     #aboutMe-details {
         width: 100%;
     }
@@ -395,7 +444,7 @@ footer p {
         font-size: 16px;
         text-align: justify;
     }
-    #profile-pic {
+    /* #profile-pic {
         position: absolute;
         top: 20px;
         right: 0px;
@@ -404,7 +453,7 @@ footer p {
     #profile-pic img {
         height: 100vh;
         margin-top: 0;
-    }
+    } */
     #aboutMe-container {
         font-size: 0.7em;
         padding: 5px;
