@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./styles/home_styles.css">
-    <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.css"> -->
     <script src="./jquery.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
@@ -69,11 +71,23 @@
                 <img src="./image/dhaka_fash_img.jpg" alt="portfolio-img">
             </div>
             <h3>DhakaFash</h3>
-            <p>(Design in progress)</p>
+            <p class="design_year">(Design in progress)</p>
             <h4>Design and Implementation of an Interactive E-Commerce</h4>
-            <h4>Technologeis and Tools Implemented</h4>
-            <p>React, CSS3, Responsive Grid Layout, Image Optimization, Font Awesome Icons, Google Fonts, Hover Effects, Flexbox, Navigation Bar with Drop-Down Menus, User Authentication Links, Search and Wishlist Icons, Category Segmentation, Call-to-Action Buttons, Item Counter Labels, Typography Styling, Color Schemes for Brand Identity, Hero Section with Promotional Text and Imagery, CSS Transitions, and Custom Styling.</p>
-            <a herf="https://arthur-emmanuel45.github.io/DhakaFash">To Project</a>
+            <h5>Technologeis and Tools Implemented</h5>
+            <p class="tools_list">React, CSS3, Responsive Grid Layout, Image Optimization, Font Awesome Icons, Google Fonts, Hover Effects, Flexbox, Navigation Bar with Drop-Down Menus, User Authentication Links, Search and Wishlist Icons, Category Segmentation, Call-to-Action Buttons, Item Counter Labels, Typography Styling, Color Schemes for Brand Identity, Hero Section with Promotional Text and Imagery, CSS Transitions, and Custom Styling.</p>
+            <button><a href="https://arthur-emmanuel45.github.io/DhakaFash">To Project</a></button>
+        </div>
+        <div class="portfolio-container prot-container-2">
+            <h3>Hosting a Static Website on AWS S3 Bucket</h3>
+            <div class="portfolio-dhakafash-img">
+                <img src="./image/project_pics/s3_bucket_img.png" alt="portfolio-img">
+            </div>
+            <p class="design_year">(Design and Implementation in 2024)</p>
+            <h4>A blog post on how to host a static Website on AWS S3 bucket</h4>
+            <h5>Technologeis and Tools Implemented</h5>
+            <p class="tools_list"><strong>Management Console:</strong>for bucket creation and policy configuration, <strong>S3 (Simple Storage Service):</strong>for storing and serving static website files (HTML, CSS, JS), <strong>IAM (Identity and Access Management):</strong> for user and permissions management</p>
+            <button><a href="https://medium.com/@arthur.emmanuel45/hosting-a-static-website-on-amazon-s3-065f5372e429">To Project</a></button>
+            <a class="more-project-button" href="">More Project --&gt;</a>
         </div>
     </div>
     <!-- <div id="project">
@@ -154,10 +168,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <div id="contact-container">
         <div id="contact">
-            <h1>Let Talk</h1>
+            <h6>Let Talk</h6>
             <div id="alert">Form submitted</div>
             <form id="contact-form">
                 <div class="placeholder">
@@ -174,24 +188,31 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
-    </div> -->
+    </div> 
 
     <footer>
         <div id="socials">
             <a href="www.linked.com/in/dhaka-art" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="" target="_blank"><i class="fa-brands fa-google"></i></a>
             <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            <a href="" target="_blank"><i class="fa fa-circle fa-phone"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
+        <div id="address">
+            <p><i class="fa-solid fa-phone"></i> +233 556100612</p>
+            <p><i class="fa-solid fa-envelope"></i> WS-080-4699</p>
+            <p><i class="fa-solid fa-location-dot"></i> Sekondi-Takoradi, Ghana</p>
+        </div>        
         <div id="footer-nav">
             <a href="./resume.html">Resume</a>
             <a href="#aboutMe-container">About</a>
             <a href="#contact-container">Contact Us</a>
-            <a href="" target="_blank">Pravicy Policy</a>
         </div>
-        <p>Copyright @2024 By Emmmanuel Arthur</p>
     </footer>
+    <div id="rights">
+        <p>Copyright @2024 All Rights Reserved</p>
+        <p>Design By : Emmmanuel Arthur</p>
+    </div>
     <script src="./home_script.js"></script>
     <script src="./config.js"></script>
 </body>
