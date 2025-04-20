@@ -1,23 +1,3 @@
-// $(function() {
-//     $("input[type=text]").click(function() {
-//         $(".placeholder").css("display", "none");
-//     })
-//     if ($("input[type=text]").blur == true && $input.value == false){
-//         $("input[type=text]").blur(function() {
-//             $(".placeholder").css("display", "block");
-//         })
-//     }
-
-//     $("input[type=email]").click(function() {
-//         $(".placeholder-email").css("display", "none");
-//     })
-//     if ($("input[type=email]").blur == true && $input.value == false){
-//         $("input[type=email]").blur(function() {
-//             $(".placeholder").css("display", "block");
-//         })
-//     }
-// });
-
 const navList = document.querySelector("nav ul");
 const menuIcon = document.getElementById("menu-icon");
 
@@ -46,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Placeholder behavior
+ //    Placeholder behavior
     const textInput = document.querySelector('input[type="text"]');
     const emailInput = document.querySelector('input[type="email"]');
     const placeholder = document.querySelector('.placeholder');
@@ -59,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         textInput.addEventListener("blur", () => {
             if (textInput.value.trim() === "") {
-                placeholder.style.display = "block";
+                placeholder.style.display = "flex";
             }
         });
     }
@@ -71,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         emailInput.addEventListener("blur", () => {
             if (emailInput.value.trim() === "") {
-                placeholderEmail.style.display = "block";
+                placeholderEmail.style.display = "flex";
             }
         });
     }
