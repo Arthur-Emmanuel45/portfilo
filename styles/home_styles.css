@@ -24,14 +24,20 @@ nav {
     border: 1px solid #fff;
     border-radius: 100%;
     padding: 13px;
+    margin-top: 0.5%;
     margin-left: 20px;
+}
+#icon a {
+    color: #fff;
+    text-decoration: none;
 }
 #icon:hover {
     cursor: pointer;
-    border-color:#3210ee;
+    background-color: #1400858c;
 }
 nav ul {
     display: flex;
+    gap: 50px;
     justify-content: space-evenly;
     list-style: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,13 +48,12 @@ nav ul li a {
     font-family: cursive;
     display: block;
     text-align: center;
-    width: 7em;
     color: #fff
 }
 nav ul li a:hover {
     border-bottom: 2px solid #fff;
 }
-.fa-bars {
+#menu-icon {
     display: none;
 }
 #front-cover-container {
@@ -196,7 +201,6 @@ h4 {
 .portfolio-container button {
     border: none;
     background-color: #003b72fe;
-    padding: 10px 25px;
     border-radius: 18px;
     padding: 13px 53px;
     font-size: 1em;
@@ -434,7 +438,7 @@ footer p {
         font-size: 2em;
         margin-top: 3%;
     }
-    ul {
+    nav ul {
         position: absolute;
         top: 8%;
         left: 0;

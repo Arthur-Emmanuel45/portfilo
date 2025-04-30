@@ -6,17 +6,18 @@
     <title>Home</title>
     <link rel="stylesheet" href="./styles/home_styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="./jquery.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div id="icon">ea</div>
+            <div id="icon"><a href="./index.html">ea</a></div>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./resume.html">Resume</a></li>
-                <li><a href="#contact-container">Contact</a></li>
-                <li><a href="#aboutMe-container">About Me</a></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./project.html">PORTFOLIO</a></li>
+                <li><a href="./education.html">EDUCATION</a></li>
+                <li><a href="./work_experience.html">WORK EXPERIENCE</a></li>
+                <li><a href="#contact-container">CONTACT</a></li>
+                <li><a href="#aboutMe-container">ABOUT ME</a></li>
             </ul>
             <i class="fa fa-bars" id="menu-icon" onclick="showMenu()"></i>
         </nav>
@@ -71,7 +72,7 @@
             <h4>Design and Implementation of an Interactive E-Commerce</h4>
             <h5>Technologeis and Tools Implemented</h5>
             <p class="tools_list">React, CSS3, Responsive Grid Layout, Image Optimization, Font Awesome Icons, Google Fonts, Hover Effects, Flexbox, Navigation Bar with Drop-Down Menus, User Authentication Links, Search and Wishlist Icons, Category Segmentation, Call-to-Action Buttons, Item Counter Labels, Typography Styling, Color Schemes for Brand Identity, Hero Section with Promotional Text and Imagery, CSS Transitions, and Custom Styling.</p>
-            <button><a href="https://arthur-emmanuel45.github.io/DhakaFash">To Project</a></button>
+            <button><a target="_blank" href="https://arthur-emmanuel45.github.io/DhakaFash">To Project</a></button>
         </div>
         <div class="portfolio-container prot-container-2">
             <h3>Hosting a Static Website on AWS S3 Bucket</h3>
@@ -82,89 +83,10 @@
             <h4>A blog post on how to host a static Website on AWS S3 bucket</h4>
             <h5>Technologeis and Tools Implemented</h5>
             <p class="tools_list"><strong>Management Console:</strong>for bucket creation and policy configuration, <strong>S3 (Simple Storage Service):</strong>for storing and serving static website files (HTML, CSS, JS), <strong>IAM (Identity and Access Management):</strong> for user and permissions management</p>
-            <button><a href="https://medium.com/@arthur.emmanuel45/hosting-a-static-website-on-amazon-s3-065f5372e429">To Project</a></button>
+            <button><a target="_blank" href="https://medium.com/@arthur.emmanuel45/hosting-a-static-website-on-amazon-s3-065f5372e429">To Project</a></button>
             <a class="more-project-button" href="">More Project --&gt;</a>
         </div>
     </div>
-    <!-- <div id="project">
-        <h2>Personal project</h2>
-        <div class="project-container">
-            <div class="projects">
-                <img src="./image/project_pics/patients-dashboard.png" alt="image of meet landing page">
-                <div class="project-detile-container">
-                    <h3>Patients Dashborad</h3>
-                    <p class="detiles">
-                        The patients dashboard of a hospital. incoperating api calls to fill in the data of the patinet jessica
-                    </p>
-                    <div>
-                        <p><a href="https://arthur-emmanuel45.github.io/patients_dashboard/" target="_blank">Learn More</a></p> 
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="projects">
-                <img src="./image/project_pics/nba.png" alt="image of meet landing page">
-                <div class="project-detile-container">
-                    <h3>NBA blog</h3>
-                    <p class="detiles">
-                        A blog site template
-                    </p>
-                    <div>
-                        <p><a href="https://arthur-emmanuel45.github.io/NBA/" target="_blank">Learn More</a></p> 
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="projects">
-                <img src="./image/project_pics/meet-landing.png" alt="image of meet landing page">
-                <div class="project-detile-container">
-                    <h3>Meet Langing Page</h3>
-                    <p class="detiles">The home page of a group chat called meet where people can send messages, share files, show your screen, and
-                        record your meetings — all in one workspace.
-                    </p>
-                    <div>
-                        <p><a href="https://arthur-emmanuel45.github.io/meet-landing-page/" target="_blank">Learn More</a></p> 
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-container">
-            <div class="projects">
-                <img src="./image/project_pics/capstone.png" alt="image of capstone colmar page">
-                <div class="project-detile-container">
-                    <h3>Capstone colmar project</h3>
-                    <p class="detiles">design and create the home pagelanding page for a school</p>
-                    <div id="learnMore2">
-                        <p><a href="https://arthur-emmanuel45.github.io/capstone_colmar_project/" target="_blank">Learn More</a></p> 
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="projects">
-                <img src="./image/project_pics/todo-list.png" alt="image of to-do app page">
-                <div class="project-detile-container">
-                    <h3>Todo-app</h3>
-                    <p class="detiles">A todo-app where users can add, delect, filter, toggle between lightmode or dark mode and more</p>
-                    <div id="learnMore3">
-                        <p><a href="https://github.com/Arthur-Emmanuel45/Todo-app" target="_blank">Learn More</a></p> 
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="projects">
-                <img src="./image/project_pics/bankingSystemDashborad.jpg" alt="image of to-do app page">
-                <div class="project-detile-container">
-                    <h3>Banking System Dashborad</h3>
-                    <p class="detiles">React app dashboard where user can view their transactions history and interactions</p>
-                    <div id="learnMore3">
-                        <p><a href="https://arthur-emmanuel45.github.io/backingSystemDashbord" target="_blank">Learn More</a></p> 
-                        <i class="fa fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
     <div id="contact-container">
         <div id="contact">
             <h6>Let Talk</h6>
@@ -199,10 +121,12 @@
             <p><i class="fa-solid fa-envelope"></i> WS-080-4699</p>
             <p><i class="fa-solid fa-location-dot"></i> Sekondi-Takoradi, Ghana</p>
         </div>        
-        <div id="footer-nav">
-            <a href="./resume.html">Resume</a>
+        <div id="footer-nav">           
+            <a href="./index.html">Home</a>
+            <a href="./project.html">Portfolio</a>
+            <a href="./work_experience.html">Work Experience</a>
+            <a href="./education.html">Education</a>
             <a href="#aboutMe-container">About</a>
-            <a href="#contact-container">Contact Us</a>
         </div>
     </footer>
     <div id="rights">

@@ -1,0 +1,119 @@
+#work-experience-header {
+    background-color: #fff;
+    padding: 5% 10%;
+    margin-top: 2%;
+}
+h8 {
+    font-size: 3em;
+    font-weight: bold;
+}
+.work-bio{
+    font-size: 1.2em;
+    margin: 10px 0 5% 0;
+    line-height: 29px;
+    text-align: justify;
+}
+#work-experience-list {
+    background-color: #003b72fe;
+    padding: 5% 0;
+    color: #fff;
+}
+h9 {
+    margin: 0;
+    font-size: 2.5em;
+}
+h11 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.work-date {
+    margin: 2px;
+    font-style: italic;
+    color: #000;
+    font-size: 13px;
+}
+.work-title {
+    font-weight: bolder;
+    font-size: 1.2em;
+    font-family: cursive;
+}
+.dutie-list {
+    margin-bottom: 1%;
+}
+.dutie-list li {
+    line-height: 25px;
+}
+.head-title-containter {
+    display: flex;
+    padding: 3% 10%;
+}
+.skills-container {
+    padding-bottom: 5%;
+}
+.title-line {
+    width: 20%;
+    height: 3px;
+    margin: auto 50px;
+}
+.skills ul li {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5%;
+}
+
+.skills div {
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: #0000007c;
+    width: 25%;
+    height: auto;
+    margin-top: 50px;
+}
+h10 {
+    background-color: #fff;
+    margin: auto;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 0.7;
+    text-align: center;
+}
+@media (min-width: 767px) and (max-width: 1199px) {
+    .skills {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .skill div {
+        width: 30%;
+    }
+    h10 {
+        font-size: 19px;
+        padding: 3px;
+    }
+}
+@media (max-width: 767px) {
+    #work-experience-header {
+        padding: 3%;
+    }
+    h8, h9 {
+        font-size: 1.5em;
+    }
+    h11 {
+        font-size: 1.5em;
+    }
+    .dutie-list {
+        padding: 2px;
+        margin-bottom: 5%;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .skills div {
+        width: auto;
+    }
+}
