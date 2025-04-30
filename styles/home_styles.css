@@ -524,6 +524,7 @@ footer p {
     #footer-nav a {
         width: 25%;
         font-size: 15px;
+        border: none;
     }
     #address p{
         font-size: 11px;
