@@ -53,7 +53,7 @@ nav ul li a {
 nav ul li a:hover {
     border-bottom: 2px solid #fff;
 }
-#menu-icon {
+.fa .fa-bars {
     display: none;
 }
 #front-cover-container {
