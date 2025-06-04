@@ -471,7 +471,7 @@ footer p {
    nav ul li a {
         color: #000;
         text-align: center;
-        width: 100%;
+        width: 50%;
     }
     .outer-box, .inner-box {
         width: 90%;
