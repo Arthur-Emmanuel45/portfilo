@@ -463,9 +463,9 @@ footer p {
         opacity: 1;
     }
     nav ul li a{
-        border-bottom: 1px solid black;
+        border: 1px solid black;
     }
-    nav ul:active{
+    nav ul li:active{
         background-color: #0044ff;
     }
    nav ul li a {
