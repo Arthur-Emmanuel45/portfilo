@@ -449,9 +449,9 @@ footer p {
         z-index: 1000;
         padding: 0;
         flex-direction: column;
-        background-color: #cfcfcf;
+        background-color: #004f99d2;
         width: 100%;
-        height:30vh;
+        height:50vh;
         gap: 10px;
         transform: scaleY(0);
         transform-origin: top;
