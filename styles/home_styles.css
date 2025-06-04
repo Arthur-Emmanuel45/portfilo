@@ -434,6 +434,7 @@ footer p {
     }
    i#menu-icon.fa.fa-bars {
         display: block;
+        color: #fff;
     }
     .fa-bars, .fa-times {
         display: block;
@@ -443,7 +444,7 @@ footer p {
     }
     nav ul {
         position: absolute;
-        top: 8%;
+        top: 7%;
         left: 0;
         z-index: 1000;
         padding: 0;
@@ -461,7 +462,7 @@ footer p {
         transform: scaleY(1);
         opacity: 1;
     }
-    nav ul li {
+    nav ul li a{
         border-bottom: 1px solid black;
     }
     nav ul:active{
