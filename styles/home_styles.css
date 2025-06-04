@@ -432,6 +432,9 @@ footer p {
     #icon {
         margin-top: 2%;
     }
+    #menu-icon {
+        display: block;
+    }
     .fa-bars, .fa-times {
         display: block;
         cursor: pointer;
