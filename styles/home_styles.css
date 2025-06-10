@@ -462,9 +462,6 @@ footer p {
         transform: scaleY(1);
         opacity: 1;
     }
-    nav ul li:active{
-        background-color: #0044ff;
-    }
    nav ul li a {
         color: #fff;
         text-align: center;
@@ -472,6 +469,9 @@ footer p {
         margin: auto;
         padding: 15px;
         border: 1px solid #fff;
+    }
+    nav ul li a:active{
+        background-color: #0044ff;
     }
     .outer-box, .inner-box {
         width: 90%;
