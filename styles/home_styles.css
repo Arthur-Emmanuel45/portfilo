@@ -146,7 +146,7 @@ h1, h2 {
     font-size: 2em
 }
 #aboutMe-details p {
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size: 1em;
     margin-top: 5px;
     text-align: justify;
