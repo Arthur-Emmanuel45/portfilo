@@ -434,13 +434,13 @@ footer p {
     }
    i#menu-icon.fa.fa-bars {
         display: block;
-        color: #fff;
     }
     .fa-bars, .fa-times {
         display: block;
         cursor: pointer;
         font-size: 2em;
         margin-top: 3%;
+        color: #fff;
     }
     nav ul {
         position: absolute;
