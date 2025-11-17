@@ -318,7 +318,7 @@ form button:active {
 }
 #socials .fa, #socials .fa-brands {
     background-color: #fff;
-    padding: 8px;
+    padding: 8px 30px;
     border-radius: 5px;
 }
 #socials a {
